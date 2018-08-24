@@ -1,6 +1,6 @@
 # (eslint-config-)lint-node
 
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) [![published on npm!](https://raw.githubusercontent.com/one19/project-status/master/cache/lint-node/npm.svg?sanitize=true)](https://www.npmjs.com/package/@brightsole/eslint-config-lint-node)
 
 ### What is it?
 <details>
@@ -19,14 +19,14 @@ This repo should at the very least get you pointed in the right direction for no
 ### How to use it?
 <details>
 <summary>
-  tl;dr: <code>yarn add -D @brightsole/lint-node</code>
+  tl;dr: <code>yarn add -D @brightsole/eslint-config-lint-node</code>
 </summary>
 <br />
 After the install, you need to extend the eslint setup by adding an `.eslintrc` file with the following contents:
 
 ```json
   {
-    "extends": ["@brightsole/lint-node"]
+    "extends": "@brightsole/lint-node"
   }
 ```
 

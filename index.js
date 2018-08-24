@@ -12,7 +12,7 @@ module.exports = {
   },
   rules: {
     'no-confusing-arrow': 'off',
-    'no-console': ['error'],
+    'no-console': ['error', { allow: ['warn', 'error'] }],
     quotes: [
       2,
       'single',
