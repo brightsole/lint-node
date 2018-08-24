@@ -26,7 +26,7 @@ After the install, you need to extend the eslint setup by adding an `.eslintrc` 
 
 ```json
   {
-    "extends": ["lint-node"]
+    "extends": ["@brightsole/lint-node"]
   }
 ```
 

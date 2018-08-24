@@ -1,9 +1,12 @@
 {
-  "name": "lint-node",
+  "name": "@brightsole/lint-node",
   "version": "0.0.0",
   "description": "eslint & prettier node setup",
   "main": "index.js",
-  "repository": "git@github.com:brightsole/lint-node.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/brightsole/lint-node.git"
+  },
   "author": "one19 <maelstroswim@gmail.com>",
   "license": "MIT",
   "private": false,
@@ -18,5 +21,10 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-prettier": "^2.6.2",
     "prettier": "^1.14.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/brightsole/lint-node/issues"
+  },
+  "homepage": "https://github.com/brightsole/lint-node#readme",
+  "devDependencies": {}
 }

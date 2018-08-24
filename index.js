@@ -22,7 +22,7 @@ module.exports = {
       },
     ],
     'comma-dangle': [2, 'always-multiline'],
-    'prettier-prettier': [
+    'prettier/prettier': [
       'error',
       {
         trailingComma: 'es5',
