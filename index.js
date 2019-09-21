@@ -10,6 +10,12 @@ module.exports = {
     test: true,
     runningLog: true,
   },
+  parser: 'babel-eslint',
+  parserOptions: {
+    babelOptions: {
+      configFile: './.babelrc',
+    },
+  },
   rules: {
     'no-confusing-arrow': 'off',
     'no-console': ['error', { allow: ['warn', 'error'] }],
