@@ -27,7 +27,7 @@ module.exports = {
         avoidEscape: true,
       },
     ],
-    'comma-dangle': [2, 'always-multiline'],
+    'comma-dangle': 'off',
     'prettier/prettier': [
       'error',
       {
