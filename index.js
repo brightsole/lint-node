@@ -10,7 +10,7 @@ module.exports = {
     test: true,
     runningLog: true,
   },
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
   parserOptions: {
     babelOptions: {
       configFile: './.babelrc',
@@ -33,7 +33,7 @@ module.exports = {
       {
         trailingComma: 'es5',
         singleQuote: true,
-        printWidth: 80,
+        printWidth: 100,
       },
     ],
     'max-len': [
@@ -44,7 +44,7 @@ module.exports = {
         ignoreStrings: true,
         ignoreUrls: true,
         comments: 100,
-        code: 80,
+        code: 100,
       },
     ],
   },
