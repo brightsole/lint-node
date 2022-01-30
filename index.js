@@ -4,10 +4,10 @@ module.exports = {
   env: {
     es6: true,
     node: true,
+    jest: true,
   },
   globals: {
     _: true,
-    test: true,
     runningLog: true,
   },
   parser: '@babel/eslint-parser',
