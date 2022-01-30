@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['ava', 'prettier'],
+  plugins: ['jest', 'prettier'],
   extends: ['airbnb-base', 'prettier'],
   env: {
     es6: true,
@@ -12,6 +12,11 @@ module.exports = {
   },
   parser: '@babel/eslint-parser',
   parserOptions: {
+    sourceType: 'module',
+    allowImportExportEverywhere: false,
+    ecmaFeatures: {
+      globalReturn: false,
+    },
     babelOptions: {
       configFile: './.babelrc',
     },
