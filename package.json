@@ -1,6 +1,6 @@
 {
   "name": "@brightsole/eslint-config-lint-node",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "eslint & prettier node setup",
   "main": "index.js",
   "repository": {
