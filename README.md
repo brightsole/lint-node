@@ -1,5 +1,9 @@
 # (eslint-config-)lint-node
 
+> [!CAUTION]
+> Deprecated as of 27, Oct, 2025
+> For a solo dev; maintaining eslint configs is yak shaving. It's not worth the time when copy+paste exists
+
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) [![published on npm!](https://raw.githubusercontent.com/one19/project-status/master/cache/lint-node/npm.svg?sanitize=true)](https://www.npmjs.com/package/@brightsole/eslint-config-lint-node)
 
 ### What is it?
